@@ -8,6 +8,9 @@ body {
 
 .form {
     margin: 50px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 #container {
@@ -31,8 +34,16 @@ body {
     display: flex;
     flex-direction: column;
     background-color: black;
+    flex: 1 1 100%;
 }
 
 .mouseOver {
     background-color: red;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    
 }
